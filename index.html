@@ -8,7 +8,11 @@
   <meta name="keywords" content="Socotra Island, Socotra expedition, Socotra travel, Yemen travel, Dragon Blood Tree, Waypoint Journeys, luxury expedition, adventure travel, UNESCO World Heritage, remote travel, Indian Ocean islands" />
   <meta name="author" content="Waypoint Journeys" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://wpjourneys.com/socotra2026" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="canonical" href="https://wpjourneys.com/socotra-expedition/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -218,7 +222,22 @@
     }
 
     .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 14px;
       flex-shrink: 0;
+    }
+    .nav-logo svg {
+      width: 36px;
+      height: 36px;
+    }
+    .nav-logo-text {
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 0.72rem;
+      letter-spacing: 0.35em;
+      color: #F5EDE0;
+      text-transform: uppercase;
     }
 
     .nav-links {
@@ -1215,35 +1234,19 @@
        NAVIGATION
   ═════════════════════════════════════════════════ -->
   <nav id="navbar" role="navigation" aria-label="Main navigation">
-    <a href="#hero" class="nav-logo" aria-label="Waypoint Journeys home">
-      <!-- WAYPOINT JOURNEYS LOGO SVG - White on dark -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 56" height="40" aria-hidden="true">
-        <!-- Circle -->
-        <circle cx="28" cy="22" r="18" fill="none" stroke="#C4944A" stroke-width="1.2"/>
-        <!-- Compass star — vertical elongated -->
-        <polygon points="28,5 30.5,19.5 28,22 25.5,19.5" fill="#FFFFFF"/>
-        <polygon points="28,39 25.5,24.5 28,22 30.5,24.5" fill="#FFFFFF"/>
-        <!-- Horizontal arms -->
-        <polygon points="11,22 19.5,19.8 22,22 19.5,24.2" fill="#FFFFFF" opacity="0.7"/>
-        <polygon points="45,22 36.5,19.8 34,22 36.5,24.2" fill="#FFFFFF" opacity="0.7"/>
-        <!-- Center dot -->
-        <circle cx="28" cy="22" r="2.2" fill="#C4944A"/>
-        <!-- 8 diamonds around the star -->
-        <g fill="#C4944A" opacity="0.9">
-          <polygon points="28,7 29,9 28,11 27,9" transform="rotate(0,28,22)"/>
-          <polygon points="28,7 29,9 28,11 27,9" transform="rotate(45,28,22)"/>
-          <polygon points="28,7 29,9 28,11 27,9" transform="rotate(90,28,22)"/>
-          <polygon points="28,7 29,9 28,11 27,9" transform="rotate(135,28,22)"/>
-          <polygon points="28,7 29,9 28,11 27,9" transform="rotate(180,28,22)"/>
-          <polygon points="28,7 29,9 28,11 27,9" transform="rotate(225,28,22)"/>
-          <polygon points="28,7 29,9 28,11 27,9" transform="rotate(270,28,22)"/>
-          <polygon points="28,7 29,9 28,11 27,9" transform="rotate(315,28,22)"/>
-        </g>
-        <!-- WAYPOINT text -->
-        <text x="57" y="26" font-family="'Source Sans 3', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="2.5">WAYPOINT</text>
-        <!-- JOURNEYS text -->
-        <text x="57" y="41" font-family="'Source Sans 3', sans-serif" font-size="8.5" font-weight="400" fill="#C4944A" letter-spacing="3">— JOURNEYS —</text>
+    <a href="/" class="nav-logo" aria-label="Waypoint Journeys Home">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" stroke="#C4944A" stroke-width="1.5" fill="none"/>
+        <circle cx="24" cy="24" r="16" stroke="#C4944A" stroke-width="0.8" fill="none" opacity="0.5"/>
+        <line x1="24" y1="2" x2="24" y2="46" stroke="#C4944A" stroke-width="0.8" opacity="0.4"/>
+        <line x1="2" y1="24" x2="46" y2="24" stroke="#C4944A" stroke-width="0.8" opacity="0.4"/>
+        <polygon points="24,6 26.5,20 24,18 21.5,20" fill="#C4944A"/>
+        <polygon points="24,42 26.5,28 24,30 21.5,28" fill="#C4944A" opacity="0.5"/>
+        <polygon points="6,24 20,21.5 18,24 20,26.5" fill="#C4944A" opacity="0.5"/>
+        <polygon points="42,24 28,21.5 30,24 28,26.5" fill="#C4944A" opacity="0.5"/>
+        <circle cx="24" cy="24" r="3" fill="#C4944A"/>
       </svg>
+      <span class="nav-logo-text">Waypoint Journeys</span>
     </a>
 
     <ul class="nav-links">
@@ -1649,7 +1652,7 @@
     <div class="container">
       <div class="footer-inner">
         <!-- Footer logo — larger -->
-        <a href="#hero" aria-label="Waypoint Journeys home">
+        <a href="/" aria-label="Waypoint Journeys home">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" height="64" style="display:inline-block;" aria-hidden="true">
             <!-- Circle -->
             <circle cx="40" cy="32" r="26" fill="none" stroke="#C4944A" stroke-width="1.5"/>
